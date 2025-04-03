@@ -1,2 +1,5 @@
 web-app/*txt
 web-app/.git
+.terraform
+.terraform.lock.hcl
+terraform.tfstate
