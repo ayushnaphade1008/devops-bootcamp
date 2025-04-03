@@ -1,7 +1,5 @@
 provider "aws" {
     region = "us-east-1"
-    access_key = "AKIATTA3LV5CKVIO4BMP"
-    secret_key = "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"
     # authenctication credentials are configured via aws cli
 }
  
