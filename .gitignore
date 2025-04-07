@@ -3,3 +3,4 @@ web-app/.git
 .terraform
 .terraform.lock.hcl
 terraform.tfstate
+terraform.tfstate.backup
