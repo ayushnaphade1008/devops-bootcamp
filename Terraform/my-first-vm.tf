@@ -3,19 +3,6 @@ provider "aws" {
     # authenctication credentials are configured via aws cli
 }
 
-resource "aws_eip" "elastic-ip" {
-  domain = "vpc"
-}
-
-resource "aws_instance" "demo_instance" {
-    ami = "ami-08b5b3a93ed654d19"
-    instance_type = "t2.micro"
- 
-    tags = {
-        Name = "ayush"
-    }
-}
-
 terraform {
   required_providers {
     google = {
@@ -28,3 +15,17 @@ terraform {
 provider "google"{
     region = "europe-west1"
 }
+
+
+# resource "aws_eip" "elastic-ip" {
+#   domain = "vpc"
+# }
+
+# resource "aws_instance" "demo_instance" {
+#     ami = "ami-08b5b3a93ed654d19"
+#     instance_type = "t2.micro"
+ 
+#     tags = {
+#         Name = "ayush"
+#     }
+# }
